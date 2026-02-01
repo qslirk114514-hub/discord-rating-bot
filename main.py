@@ -23,8 +23,8 @@ answers = [
     "看心情",
     "問我幹嘛?",
     "隨便",
-    "嗯"
-    "你他媽有病是不是?"
+    "嗯",
+    "你他媽有病是不是?",
     "我覺得你應該去檢查一下智商"
 ]
 
@@ -133,4 +133,3 @@ async def idle_loop():
         await channel.send(random.choice(lonely_lines))
 
 bot.run(TOKEN)
-
